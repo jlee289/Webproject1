@@ -1,5 +1,9 @@
-/* CSS Styles */
+html{
+  background: url(../images/sky.gif) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+
+}
 body{
-background-color:rgb(242,197,180);
-color:Black;
+
 }
