@@ -5,5 +5,105 @@ html{
 
 }
 body{
+padding: 0px;
+margin: 0px;
+}
+h1{
+  Color:black;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+p{
+  color: white;
+  font-size:30px;
+}
+.imageRedDropShadow{
 
+
+filter: drop-shadow(20px 2px 4px white);
+}
+.COTOVOID{
+  postion: absolute;
+  right: 50px;
+  display: inline-block;
+}
+
+.HYPERSPEKTIV_33.MOV{
+  position: absolute;
+  left: 50px;
+  top20%;
+  display: inline-block;
+}
+
+.titleText{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+}
+
+#mainContainer{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#contentContainer{
+  position: relative;
+  width: 1000px;
+  height: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.SELFPORTRAIT .jpg{
+  position: absolute;
+  width: 100px;
+  height:100px;
+}
+
+
+#pg2Link{
+  position: absolute;
+  color: white;
+  text-decoration:none;
+  top:60%;
+}
+
+.row{
+  height:auto;
+  position:relative;
+  display: flex;
+  flex-wrap:wrap;
+}
+.relativePos{
+  width: 50px;
+    z-index:1;
+  height: 50px;
+  left: 30px;
+  top:50px;
+  position: relative;
+  background-color: orange
+}
+
+.absPos{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: purple;
+  right:10px;
+}
+
+.fixedPos{
+  position: fixed;
+    z-index:-1;
+  width: 100px;
+  height: 100px;
+  top:40px;
+  left:100px;
 }
