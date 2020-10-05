@@ -42,9 +42,19 @@ h2{
   padding-top:20px;
 }
 p{
-  color:rgb(222,287,252);;
-  font-size:30px;
+  color:rgb(222,287,252);
+  font-size:40px;
 }
+.red_text{
+  color:rgb(250, 100, 100);
+  font-size:50px;
+
+}
+.oceanblue{
+  color:rgb(19, 64, 133);
+  font size:50px;
+}
+
 a:hover{
   color:black;
   text-decoration: none;
@@ -144,17 +154,17 @@ height:800px;
 .vid2{
 width:600px;
 height:600px;
-scale:150%;
+scale:180%;
 position: absolute;
+top:59%;
+right:1.5%;
 }
 
 .acid_tree{
-
-  width:700px;
-  height:700px;
   position: absolute;
-  top:35%;
-  right:-2%;
+  scale: 90%;
+  top: 52%;
+  right: -1%;
 }
 
 .lain{
@@ -162,11 +172,37 @@ position: absolute;
   height:600px;
 }
 .sharingan{
+  position:absolute;
+  top:68%;
   width:600px;
   height:600px;
+  scale:114%;
 }
+.staticdrain{
+  top: 81%;
+  position: absolute;
+  scale: 125%;
+  right: 48%;
 
+}
+.Planet_mad{
+  position:relative;
+  top:27.5%;
+  scale:110%;
+}
+.void{
+  position: absolute;
+  right: 15%;
+  scale: 130%;
+  top:25%;
+}
+.shinchan{
+  width:700px;
+  height:700px;
+  position: absolute;
+  right:-7%;
 
+}
 
 
 }
