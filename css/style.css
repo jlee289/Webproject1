@@ -24,7 +24,9 @@ html{
 .torsoBG{
   background: url(../images/Torso_colors.PNG) repeat;
 }
-
+.waitingBG{
+  background: url(../images/waiting_page.gif);
+}
 body{
 padding: 20px;
 margin: 20px;
@@ -89,7 +91,7 @@ filter: drop-shadow(20px 12px 6px orange);
   position: relative;
 }
 
-#contentContainer{
+.contentContainer{
   position: relative;
 width: 1200px;
 height: 2000px;
@@ -98,7 +100,16 @@ margin-left: initial;
 margin-right: initial;
 padding: 80px;
 }
-
+.transparentcontainer{
+  position: relative;
+width: 1200px;
+height: 2000px;
+background-color: transparent;
+margin-left: initial;
+margin-right: initial;
+padding: 80px;
+}
+}
 .centeredText{
   text-align: center;
 }
@@ -201,6 +212,34 @@ right:1.5%;
   height:700px;
   position: absolute;
   right:-7%;
+
+}
+
+.neocity{
+position: absolute;
+width:900px;
+height:700px;
+top: 101%;
+
+}
+.nova{
+  position: absolute;
+  width:500px;
+  height:500px;
+  right: 55%;
+
+}
+.sword{
+  position:absolute;
+  width:900px;
+  height:490px;
+  top:40%;
+}
+.ichigo{
+position:absolute;
+scale: 30%;
+right: -55%;
+top: 25%;
 
 }
 
